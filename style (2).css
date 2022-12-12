@@ -1,0 +1,112 @@
+/* formContenair */
+.formContenair{
+    width: 80%;
+    margin: auto;
+}
+.formContenair input, .formContenair textarea{
+width: 100%;
+border: 1px #fff;
+margin: 8px 0;
+padding: 12px 20px;
+border-radius: 5px;
+}
+.formContenair textarea{
+    resize: none;
+}
+.formContenair input[type=submit]{
+background-color: green;
+color: #fff;
+font-size: 20px;
+cursor: pointer;
+}
+body{
+    background-color: lightgrey;
+}
+h1{
+    text-align: center;
+}
+
+/* Navigation */
+.nav{
+    position: sticky;
+    top: 0;
+}
+.nav ul{
+    background-color: black;
+    overflow: hidden;
+ 
+}
+.nav ul li{
+    list-style-type: none;
+    float: left;
+
+}
+.nav ul li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    background-color: #333;
+
+}
+.article{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+.article p{
+    text-align: justify;
+    margin: 2%;
+    padding: 2%;
+
+}
+h2{
+    color: red;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+/* contenu */
+.table {
+    width: 80%;
+    margin: auto;
+}
+.table table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.table table th{
+    background-color: red;
+    height:50px;
+    color: white;
+
+}
+.table table td{
+    height:30px;
+    text-align: center;
+}
+.table table th, .table table td{
+    border: 1px solid white;
+}
+.table table tr:hover{
+    background-color: red;
+    color: white;
+}
+
+.footer{
+    background-color: black; 
+    text-align: center;
+    padding: 1%;
+    width: 100%;
+}
+.footer p{
+    color: white;
+}
+.footer, .footer-bottom{
+    /* position: fixed; */
+    bottom: 0;
+}
